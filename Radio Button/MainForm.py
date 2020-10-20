@@ -1,5 +1,6 @@
 import PyQt5.QtWidgets
 
+#Application Module
 Label = PyQt5.QtWidgets.QLabel
 Button = PyQt5.QtWidgets.QPushButton
 Radio = PyQt5.QtWidgets.QRadioButton
