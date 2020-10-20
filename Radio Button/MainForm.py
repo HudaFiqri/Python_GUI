@@ -80,4 +80,5 @@ class MainForm(PyQt5.QtWidgets.QWidget):
             Radio3Massage.exec()
 
     def Button2Press(self):
+        #Close Program
         self.close()
