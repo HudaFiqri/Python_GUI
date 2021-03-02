@@ -1,6 +1,8 @@
 '''
-sumber referensi:
+dengan adanya ukuran maximum dan minimum, dapat dilakukan penguncian ukuran yang sudah ditentukan
+
 ditulis pada: 26-02-2021
+direvisi pada: 02-03-2021
 '''
 
 from PyQt5.QtWidgets import *
