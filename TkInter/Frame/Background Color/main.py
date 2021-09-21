@@ -1,17 +1,13 @@
-import tkinter
-from tkinter.constants import RAISED
+from tkinter import *
 
-window = tkinter.Tk()
-window.geometry("300x400")
+window = Tk()
 
-frame1 = tkinter.Frame(window, borderwidth=2)
+frm = Frame(window, bg='red')
+frm.pack(ipadx=10, ipady=10)
 
-btn1_frame1 = tkinter.Label(window, text='Head')
+label = Label(frm, text='value')
+label.pack()
 
-btn1_frame1.pack()
-frame1.pack()
 
-frame2 = tkinter.Frame(window, relief="raised")
-frame2.pack()
 
 window.mainloop()
